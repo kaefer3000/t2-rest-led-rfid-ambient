@@ -1,0 +1,27 @@
+{
+  "name": "t2-rest-rfid-ambient",
+  "version": "0.0.2",
+  "description": "REST + Linked Data interface for a Tessel 2 with an ambient and rfid module",
+  "main": "index.js",
+  "dependencies": {
+    "ambient-attx4": "^0.2.8",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "relay-mono": "^0.1.3",
+    "rfid-pn532": "^0.1.9",
+    "rdf-ext": "^0.3.0",
+    "rdf-formats-common" : "^0.3.0",
+    "rdf-serializer-rdfxml": "git://github.com/kaefer3000/rdf-serializer-rdfxml",
+    "rdf-body-parser": "git://github.com/kaefer3000/rdf-body-parser"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": { "type":"git", "url" : "https://github.com/kaefer3000/" },
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script."
+}
